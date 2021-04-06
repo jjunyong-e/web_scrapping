@@ -10,7 +10,5 @@ title_lst = []
 
 title1 = soup.find_all('a', attrs= {'class' : 'api_txt_lines total_tit'})
 
-# for _ in title1:
-    # print(_.get_text())
 for _ in title1:
     print(_.get_text())
